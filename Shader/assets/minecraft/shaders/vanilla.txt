@@ -1,0 +1,37 @@
+assets/minecraft/shaders/include/settings.glsl
+// hitbox
+#define hitbox_direction_color vec3(0, 0, 255)
+#define hitbox_direction_opacity 255
+#define hitbox_direction_rainbow false
+
+#define hitbox_eye_color ivec3(255, 0, 0)
+#define hitbox_eye_opacity 255
+#define hitbox_eye_rainbow false
+
+#define hitbox_box_color ivec3(255, 255, 255)
+#define hitbox_box_opacity 255
+#define hitbox_box_rainbow false
+
+#define hitbox_width 2.5
+
+// block outline
+#define block_outline_color ivec3(0, 0, 0)
+#define block_outline_opacity 102
+#define block_outline_rainbow false
+
+#define block_outline_width 2.5
+
+// hit color
+#define hit_color ivec3(255, 0, 0)
+#define hit_opacity 178
+#define hit_rainbow false
+
+// enchant glint
+#define glint_color ivec3(154, 79, 245)
+#define glint_rainbow false
+
+assets/minecraft/shaders/program/transparency.fsh
+// color changes
+#define hue_change 0
+#define sat_percent 100
+#define val_percent 100
